@@ -1,5 +1,9 @@
+
 .App {
   text-align: center;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -26,6 +30,88 @@
 
 .App-link {
   color: #61dafb;
+}
+.education-planner {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: lightblue;
+}
+
+.subjects-list {
+  margin-top: 20px;
+  color: brown;
+
+}
+.div-main{
+  display: flex;
+  justify-content: space-around;
+}
+.sub{
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+.Input{
+      background-color: #fff;
+      border-color: #3b49df;
+      box-shadow: 1px 1px 0 #3b49df;
+      font-size: 18px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      margin-left: 5px;
+  :focus{
+    
+    background-color: greenyellow;
+    border: 1px solid rgb(181, 189, 196);
+    font-size: 15px;
+    height: 18px;
+    line-height: 24px;
+    padding: 7px 8px;
+    margin-left: 5px;
+    
+  }
+  
+}
+.btn{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: black;
+  border: 1px solid rgb(20, 21, 22);
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: 15px;
+  color:white;
+  margin-left: 5px;
+}
+.btn:hover{
+  background-color: red;
+}
+.btn-add{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: black;
+  border: 1px solid rgb(20, 21, 22);
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: 15px;
+  color:white;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+.btn-sub{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: black;
+  border: 1px solid rgb(20, 21, 22);
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: 15px;
+  color:white;
+  margin-left: 15px;
+  margin-top: 12px;
 }
 
 @keyframes App-logo-spin {
